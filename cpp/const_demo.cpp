@@ -1,6 +1,6 @@
 #include <iostream>
 
-int scale_by(int num, int factor);    // forward declaration
+int scale_by(int num, const int factor);    // forward declaration
 
 int main(){
     const int factor = 3;
